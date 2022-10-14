@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 2rem 2rem 1rem;
+  background: #22212C;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #837E9F;
+}
+
+.container {
+  display: flex;
+}
+
+.sideMenu {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.sideMenu > * {
+  background-color: #302F3D;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.projectsMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.projectsMenu > * {
+  background-color: #302F3D;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.profileMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.profileMain img{
+  max-width: 128px;
+  max-height: 128px;
+  border-radius: 50%;
+  background: url('https://github.com/andremayert.png');
+  border: 2px solid #00FF00;
+  margin-bottom: 1.5rem;
+}
+
+.profileMain h2 {
+  font-weight: 700;
+}
+
+.profileMain p {
+  margin-top: 10px;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 13px;
+}
