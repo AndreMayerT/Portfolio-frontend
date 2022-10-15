@@ -14,6 +14,8 @@ body {
 
 .container {
   display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
 }
 
 .sideMenu {
@@ -31,6 +33,7 @@ body {
 
 .projectsMenu {
   display: flex;
+  flex-grow: 1;
   flex-direction: column;
   gap: 30px;
 }
@@ -68,4 +71,210 @@ body {
   font-weight: 300;
   font-style: normal;
   font-size: 13px;
+}
+
+.links ul{
+  list-style: none;
+  padding: 2rem 30px 10px 30px;
+}
+
+.links ul li{
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.links ul li img {
+  margin-right: 20px;
+}
+
+
+
+.technologies {
+  padding: 30px 20px 30px 20px ;
+}
+
+.technologies p {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.technologies ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: left;
+}
+
+.technologies ul li {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  background-color: #CB92B1;
+  color: #000;
+  border-radius: 30px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.experiences {
+  padding: 30px 20px 10px 20px;
+}
+
+.experiences h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.experiences ul {
+  padding-left: 40px;
+}
+
+.experiences ul > * {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.experiences p {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 20px;
+}
+
+.education {
+  padding: 30px 20px 10px 20px;
+}
+
+.education h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.education ul {
+  padding-left: 40px;
+}
+
+.education p:first-child {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.education p:last-child{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 20px;
+}
+
+.myProjects {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.myProjects h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.myProjects a {
+  text-decoration: none;
+  color: #837E9F;
+}
+
+.projectsTemplate {
+  background-color: #22212C;
+  border-radius: 0;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0);
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.projectsTemplate > * {
+  background-color: #302F3D;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  width: 50%;
+  padding: 30px;
+}
+
+.projectTitle {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.projectsTemplate h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.projectsTemplate p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.recentPosts h2 {
+  padding: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.posts {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+}
+
+.postWrapper h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 20px;
+}
+
+.posts img {
+  max-width: 128px;
+  max-height: 128px;
+  border-radius: 50%;
+}
+
+#postTime {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 40px;
+}
+
+#postContent {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
 }

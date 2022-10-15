@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="container">
@@ -43,7 +43,7 @@
         </div>
 
         <div class="experiences">
-          <p>Experiences</p>
+          <h3>Experiences</h3>
           <ul>
             <li>GETTER 
               <p>2021 - 2022</p>
@@ -55,7 +55,7 @@
         </div>
 
         <div class="education">
-          <p>Education</p>
+          <h3>Education</h3>
           <ul>
             <li>PUCPR 
               <p>2018 - 2022</p> 
@@ -77,28 +77,27 @@
 
       <div class="projectsMenu">
         <div class="myProjects">
-          <h1>My Projects</h1>
-          <a href="https://github.com/andremayert">See all</a>
+          <h2>My Projects</h2>
+          <a target="_blank" href="https://github.com/andremayert">See all</a>
         </div>
 
         <div class="projectsTemplate">
           <div id="firstProject">
-            <h2>
+            
+            <div class="projectTitle">
               <img src="./assets/folder.svg" alt="">
-              first-project
-            </h2>
-
-            <p>project description</p>
+              <h2>first-project</h2>
+            </div>
+            <p>Project description</p>
 
           </div>
 
           <div id="secondProject">
-            <h2>
+            <div class="projectTitle">
               <img src="./assets/folder.svg" alt="">
-              second-project
-            </h2>
-
-            <p>project description</p>
+              <h2>second-project</h2>
+            </div>
+            <p>Project description</p>
 
           </div>
         </div>
@@ -109,9 +108,12 @@
 
         <div class="posts">
           <img src="https://github.com/andremayert.png" alt="">
-          <p id="postTitle">Title</p>
-          <p id="postTime">2 days ago</p>
-          <p id="postContent"> Content</p>
+
+          <div class="postWrapper">
+            <h3 id="postTitle">Title</h3>
+            <p id="postTime">2 days ago</p>
+            <p id="postContent"> Content</p>
+          </div>
         </div>
       </div>
     </div>
