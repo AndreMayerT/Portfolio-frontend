@@ -220,10 +220,13 @@ body {
   margin-bottom: 20px;
 }
 
-.projectsTemplate h2 {
+.projectsTemplate a {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+  text-decoration: none;
+  color: #837E9F;
+  text-align: center;
 }
 
 .projectsTemplate p {
@@ -277,4 +280,5 @@ footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
+  margin-top: 40px;
 }
