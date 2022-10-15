@@ -36,7 +36,7 @@ function dateDiffInDays(a, b) {
     const utc2 = Date.UTC(b.getFullYear(), b.getMonth(), b.getDate());
   
     return Math.floor((utc2 - utc1) / _MS_PER_DAY);
-  }
+}
 
 async function getCommitData() {
     await fetch("https://api.github.com/users/AndreMayerT/events")
