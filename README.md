@@ -17,7 +17,7 @@ Project made for the Portfolio challenge from Rocketseat.
 - CSS
 - JavaScript
 - API
-- Git e Github
+- Git and Github
 - Vite
 - NPM
 
