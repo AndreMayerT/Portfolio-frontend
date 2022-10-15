@@ -18,6 +18,8 @@ Project made for the Portfolio challenge from Rocketseat.
 - JavaScript
 - API
 - Git e Github
+- Vite
+- NPM
 
 ## 💛 Contact
 
