@@ -61,7 +61,7 @@ async function getCommitData() {
 
 
         const commit_time = new Date(commits_list[0].created_at)
-        const diffDays = dateDiffInDays(new Date(), commit_time) 
+        const diffDays = Math.abs(dateDiffInDays(new Date(), commit_time)) 
         console.log(commits_list[0].created_at)
         console.log(diffDays)
 
