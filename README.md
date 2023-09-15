@@ -9,7 +9,7 @@
 
 Project made for the Portfolio challenge from Rocketseat.
 
-[🔗 Click here to visit](https://andremayert.github.io/Portfolio/)
+[🔗 Click here to visit](https://andremayert.github.io/Portfolio-frontend/)
 
 ## 🛠 Tech
 
